@@ -14,6 +14,8 @@
 		9765AF821E7629D400C08AC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9765AF801E7629D400C08AC8 /* LaunchScreen.storyboard */; };
 		9765AF8D1E7629D400C08AC8 /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9765AF8C1E7629D400C08AC8 /* FunFactsTests.swift */; };
 		9765AF981E7629D400C08AC8 /* FunFactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9765AF971E7629D400C08AC8 /* FunFactsUITests.swift */; };
+		9765AFA61E76E6FA00C08AC8 /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9765AFA51E76E6FA00C08AC8 /* FactProvider.swift */; };
+		9765AFA81E784BE800C08AC8 /* ColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9765AFA71E784BE800C08AC8 /* ColorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9765AF931E7629D400C08AC8 /* FunFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9765AF971E7629D400C08AC8 /* FunFactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsUITests.swift; sourceTree = "<group>"; };
 		9765AF991E7629D400C08AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9765AFA51E76E6FA00C08AC8 /* FactProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
+		9765AFA71E784BE800C08AC8 /* ColorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				9765AF7E1E7629D400C08AC8 /* Assets.xcassets */,
 				9765AF801E7629D400C08AC8 /* LaunchScreen.storyboard */,
 				9765AF831E7629D400C08AC8 /* Info.plist */,
+				9765AFA51E76E6FA00C08AC8 /* FactProvider.swift */,
+				9765AFA71E784BE800C08AC8 /* ColorProvider.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					9765AF731E7629D300C08AC8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4B3MR4J9YC;
 						ProvisioningStyle = Automatic;
 					};
 					9765AF871E7629D400C08AC8 = {
@@ -259,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9765AFA81E784BE800C08AC8 /* ColorProvider.swift in Sources */,
 				9765AF7A1E7629D400C08AC8 /* ViewController.swift in Sources */,
 				9765AF781E7629D400C08AC8 /* AppDelegate.swift in Sources */,
+				9765AFA61E76E6FA00C08AC8 /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4B3MR4J9YC;
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Let-Rod.FunFacts";
@@ -422,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4B3MR4J9YC;
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Let-Rod.FunFacts";
